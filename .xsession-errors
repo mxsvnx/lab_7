@@ -1,0 +1,69 @@
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/max/.Xauthority
+dbus-update-activation-environment: setting XDG_CURRENT_DESKTOP=XFCE
+/etc/X11/Xsession.d/30x11-common_xresources: строка 16: has_option: команда не найдена
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/home/max/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+/etc/X11/Xsession.d/75dbus_dbus-launch: строка 9: has_option: команда не найдена
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+/etc/X11/Xsession.d/90x11-common_ssh-agent: строка 9: has_option: команда не найдена
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-xfce:/etc/xdg
+dbus-update-activation-environment: setting LANGUAGE=ru_RU
+dbus-update-activation-environment: setting DESKTOP_SESSION=xfce
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting PWD=/home/max
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=xfce
+dbus-update-activation-environment: setting LOGNAME=max
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting XAUTHORITY=/home/max/.Xauthority
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/max
+dbus-update-activation-environment: setting GDM_LANG=ru_RU
+dbus-update-activation-environment: setting HOME=/home/max
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LANG=ru_RU.UTF-8
+dbus-update-activation-environment: setting XDG_CURRENT_DESKTOP=XFCE
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting USER=max
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting SHLVL=0
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting GTK3_MODULES=xapp-gtk3-module
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/home/max/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting GDMSESSION=xfce
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+/usr/bin/iceauth:  creating new authority file /run/user/1000/ICEauthority
+gpg-agent: агент gpg уже запущен - еще один, новый, запущен не будет
+MESA: error: ZINK: failed to choose pdev
+glx: failed to create drisw screen
+
+(xfwm4:1664): xfwm4-WARNING **: 13:25:46.508: Unsupported GL renderer (llvmpipe (LLVM 17.0.6, 128 bits)).
+
+(polkit-gnome-authentication-agent-1:1769): GLib-CRITICAL **: 13:25:50.883: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:1769): polkit-gnome-1-WARNING **: 13:25:50.891: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+** (xiccd:1809): WARNING **: 13:25:52.880: EDID is empty
+blueman-applet 13.25.55 WARNING  PluginManager:150 __load_plugin: Not loading PPPSupport because its conflict has higher priority
+blueman-applet 13.25.55 WARNING  PluginManager:150 __load_plugin: Not loading DhcpClient because its conflict has higher priority
+blueman-applet 13.26.21 WARNING  DiscvManager:122 update_menuitems: warning: Adapter is None
+
+(Thunar:1687): GLib-GIO-CRITICAL **: 13:46:26.981: GFileInfo created without standard::size
+
+(Thunar:1687): GLib-GIO-CRITICAL **: 13:46:26.984: file ../../../gio/gfileinfo.c: line 1845 (g_file_info_get_size): should not be reached
+Warning: failed to launch javaldx - java may not function correctly
+[ERROR glean_core::metrics::ping] Invalid reason code active for ping usage-reporting
+libEGL warning: DRI2: failed to authenticate
+MESA: error: ZINK: failed to choose pdev
+libEGL warning: egl: failed to create dri2 screen
+[ERROR glean_core::metrics::ping] Invalid reason code inactive for ping usage-reporting
+Warning: failed to launch javaldx - java may not function correctly
+
+(Thunar:1687): GLib-GIO-CRITICAL **: 14:38:26.236: GFileInfo created without standard::size
+
+(Thunar:1687): GLib-GIO-CRITICAL **: 14:38:26.236: file ../../../gio/gfileinfo.c: line 1845 (g_file_info_get_size): should not be reached

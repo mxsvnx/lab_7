@@ -1,0 +1,74 @@
+# Этот viminfo-файл автоматически создан программой Vim 9.1.
+# Его можно (осторожно!) редактировать.
+
+# Viminfo version
+|1,4
+
+# Значение параметра 'encoding' в момент записи файла
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Журнал командной строки (от новых к старым):
+:wq
+|2,0,1749627733,,"wq"
+
+# Журнал поисковой строки (от новых к старым):
+
+# Журнал вычислений (от новых к старым):
+
+# Журнал строки ввода (от новых к старым):
+
+# Журнал команд отладки (от новых к старым):
+
+# Регистры:
+
+# Журнал общих закладок:
+'0  1  0  ~/ansible/inventory.ini
+|4,48,1,0,1749627733,"~/ansible/inventory.ini"
+'1  1  0  ~/ansible/playbook.yaml
+|4,49,1,0,1749627713,"~/ansible/playbook.yaml"
+'2  37  23  ~/ansible/install_nginx.yml
+|4,50,37,23,1749626595,"~/ansible/install_nginx.yml"
+
+# Журнал переходов (в начале более новые):
+-'  1  0  ~/ansible/inventory.ini
+|4,39,1,0,1749627733,"~/ansible/inventory.ini"
+-'  1  0  ~/ansible/playbook.yaml
+|4,39,1,0,1749627713,"~/ansible/playbook.yaml"
+-'  1  0  ~/ansible/playbook.yaml
+|4,39,1,0,1749627713,"~/ansible/playbook.yaml"
+-'  37  23  ~/ansible/install_nginx.yml
+|4,39,37,23,1749626595,"~/ansible/install_nginx.yml"
+-'  37  23  ~/ansible/install_nginx.yml
+|4,39,37,23,1749626595,"~/ansible/install_nginx.yml"
+-'  37  23  ~/ansible/install_nginx.yml
+|4,39,37,23,1749626595,"~/ansible/install_nginx.yml"
+-'  37  23  ~/ansible/install_nginx.yml
+|4,39,37,23,1749626595,"~/ansible/install_nginx.yml"
+-'  1  0  ~/ansible/install_nginx.yml
+|4,39,1,0,1749626423,"~/ansible/install_nginx.yml"
+-'  1  0  ~/ansible/install_nginx.yml
+|4,39,1,0,1749626423,"~/ansible/install_nginx.yml"
+-'  1  0  ~/ansible/install_nginx.yml
+|4,39,1,0,1749626423,"~/ansible/install_nginx.yml"
+-'  1  0  ~/ansible/install_nginx.yml
+|4,39,1,0,1749626423,"~/ansible/install_nginx.yml"
+
+# Журнал локальных закладок (от новых к старым):
+
+> ~/ansible/inventory.ini
+	*	1749627731	0
+	"	1	0
+
+> ~/ansible/playbook.yaml
+	*	1749627711	0
+	"	1	0
+
+> ~/ansible/install_nginx.yml
+	*	1749626593	0
+	"	37	23
+	^	58	24
+	.	58	23
+	+	58	23

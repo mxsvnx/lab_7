@@ -1,0 +1,58 @@
+- name: Install and configure nginx with PHP
+  hosts: web  # Должно соответствовать группе из inventory-файла
+  become: yes  # Выполнять с правами sudo
+  gather_facts: yes  # Собирать информацию о системе
+
+  tasks:
+    # 1. Обновление кеша пакетов
+    - name: Update apt package cache
+      apt:
+        update_cache: yes
+      when: ansible_os_family == 'Debian'  # Только для Debian/Ubuntu
+
+    # 2. Установка nginx
+    - name: Install nginx
+      apt:
+        name: nginx
+        state: latest
+        force_apt_get: yes  # Явное использование apt-get
+      register: nginx_installed
+      notify:
+        - Enable nginx  # Запустить handler после установки
+      when: ansible_os_family == 'Debian'
+
+    # 3. Установка PHP и зависимостей
+    - name: Install PHP and extensions
+      apt:
+        name:
+          - php-fpm
+          - php-cli
+          - php-mysql
+          - php-curl
+          - php-gd
+          - php-mbstring
+        state: latest
+      notify:
+        - Restart php-fpm
+      when: ansible_os_family == 'Debian'
+
+    # 4. Настройка автозапуска служб
+    - name: Ensure services are enabled and started
+      systemd:
+        name: "{{ item }}"
+        enabled: yes
+        state: started
+      loop:
+        - nginx
+        - php8.1-fpm  # Уточните версию PHP на вашей системе
+
+  handlers:
+    - name: Enable nginx
+      service:
+        name: nginx
+        enabled: yes
+
+    - name: Restart php-fpm
+      service:
+        name: php8.1-fpm  # Уточните версию PHP на вашей системе
+        state: restarted

@@ -1,0 +1,2 @@
+{"timestamp":1399708,"category":"nimbus_events","name":"validation_failed","extra":{"glean_timestamp":"1749624464821","reason":"invalid-feature","experiment":"add-an-image-to-pdf-with-alt-text-rollout","feature":"addAnImageInPDF"}}
+{"timestamp":1423889,"category":"nimbus_events","name":"validation_failed","extra":{"experiment":"add-an-image-to-pdf-with-alt-text-rollout","feature":"addAnImageInPDF","glean_timestamp":"1749624489002","reason":"invalid-feature"}}
